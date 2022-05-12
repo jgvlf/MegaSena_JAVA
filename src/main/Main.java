@@ -76,6 +76,7 @@ public class Main {
                 System.out.println();
             }
             System.out.println("\n\n\n");
+            System.out.println("Jogo de "+nome+" de CPF "+CPF+": ");
             for (int ind = 0; ind < qtd; ind++) {
                 vetor[ind] = (int) (Math.random() * (60 - 1 + 1) + (1));
             }
